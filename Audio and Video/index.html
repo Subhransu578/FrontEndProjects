@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio and Video</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>MuSiC</h1>
+            </div>
+
+            <div class="menu">
+                <a href="#">home</a>
+                <a href="#">about</a>
+                <a href="#">specification</a>
+                <a href="#">products</a>
+                <a href="#">connect</a>
+            </div>
+        </nav>
+
+        <div class="para">
+            <p>the <br> real <br> sound</p>
+        </div>
+    </header>
+
+    
+    <div class="maindiv">
+        <div class="musiccontainer">
+            <h2 class="title">SCAM 1992</h2>
+            <div class="imagecontainer">
+                <img src="scam-1992.webp">
+            </div>
+            <audio src="Scam-1992.mp3"></audio>
+
+            <div class="musiccontrols">
+                <i class="fas fa-backward" class="prev" title="Previous"></i>
+                <i class="fas fa-play mainbutton" class="play" title="Play"></i>
+                <i class="fas fa-forward" class="next" title="Next"></i>
+            </div>
+        </div>
+
+        <div class="musiccontainer">
+            <h2 class="title">INDIAN ARMY</h2>
+            <div class="imagecontainer">
+                <img src="indian-army.jfif">
+            </div>
+            <audio src="Feeling Proud Indian Army(PagalWorld).mp3"></audio>
+
+            <div class="musiccontrols">
+                <i class="fas fa-backward" class="prev" title="Previous"></i>
+                <i class="fas fa-play mainbutton" class="play" title="Play"></i>
+                <i class="fas fa-forward" class="next" title="Next"></i>
+            </div>
+        </div>
+
+        <div class="musiccontainer">
+            <h2 class="title">LUT GAYE</h2>
+            <div class="imagecontainer">
+                <img src="lut-gaye.jpg">
+            </div>
+            <audio src="Lut-Gaye.mp3"></audio>
+
+            <div class="musiccontrols">
+                <i class="fas fa-backward" class="prev" title="Previous"></i>
+                <i class="fas fa-play mainbutton" class="play" title="Play"></i>
+                <i class="fas fa-forward" class="next" title="Next"></i>
+            </div>
+        </div>
+
+        <div class="musiccontainer">
+            <h2 class="title">BROWN MUNDE</h2>
+            <div class="imagecontainer">
+                <img src="brown-munde.jpg">
+            </div>
+            <audio src="Brown-Munde.mp3"></audio>
+
+            <div class="musiccontrols">
+                <i class="fas fa-backward" class="prev" title="Previous"></i>
+                <i class="fas fa-play mainbutton" class="play" title="Play"></i>
+                <i class="fas fa-forward" class="next" title="Next"></i>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2021 || designed by subhransu</p>
+    </footer>
+
+    <script>
+        const music = document.querySelector("audio");
+        const img = document.querySelector("img");
+        const play = document.getElementsByClassName("play");
+
+
+        let isplaying = false;
+
+        const playMusic = () => {
+            isplaying = true;
+            music.play();
+            play.classList.replace("fa-play", "fa-pause");
+        };
+
+        const pauseMusic = () => {
+            isplaying = false;
+            music.pause();
+            play.classList.replace("fa-pause","fa-play");
+        };
+
+        play.addEventListener('click', () => {
+            if(isplaying) {
+                pauseMusic();
+            }
+            else{
+                playMusic();
+            }
+        });
+
+    </script>
+</body>
+</html>
