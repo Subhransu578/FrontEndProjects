@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.div1{
+    width: 50vw;
+    height: 100vh;
+
+    /* for this width: 50vh; */
+    background: url("images/g.jpg"), red;
+    background-blend-mode: multiply;
+
+
+    /* for this width: 50vh; */
+    /* background: url("images/monkey.jpg"), 
+    linear-gradient(45deg,  rgb(248, 22, 22), rgb(248, 52, 144), rgb(126, 37, 209), rgb(7, 7, 133), black);
+    background-blend-mode: luminosity; */
+
+    /* background: url("images/2.jpg"), linear-gradient(45deg, black, yellow);
+    background-blend-mode: overlay; */
+
+    /* background: url("images/5.jpg"), linear-gradient(45deg, red, blue);
+    background-blend-mode: luminosity; */
+
+    /* background: url("images/7.jpg"), linear-gradient(45deg, black, rgb(230, 255, 9), orangered);
+    background-blend-mode: multiply; */
+
+    /* background: url("images/a.jpg"), linear-gradient(45deg, rgb(14, 175, 250), rgb(29, 255, 29));
+    background-blend-mode: multiply; */
+
+    /* background: url("images/b.jpg"), linear-gradient(45deg, rgb(184, 11, 184), rgb(14, 97, 250), rgb(8, 182, 8));
+    background-blend-mode: hard-light; */
+
+    /* background: url("images/c.jpg"), linear-gradient(45deg, rgb(253, 53, 86), rgb(71, 192, 248), rgb(156, 253, 156));
+    background-blend-mode: hard-light; */
+
+    /* background: url("images/d.jpg"), linear-gradient(45deg, rgb(210, 19, 228),blue);
+    background-blend-mode: hard-light; */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
