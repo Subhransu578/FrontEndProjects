@@ -1,0 +1,86 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.parent-box{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .child-box1 */
+.child-box1{
+    width: 18%;
+    height: 60%;
+    border: 0.2rem solid black;
+}
+
+.box1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: perspective(20rem) rotateX(25deg);
+    transition: 0.5s;
+}
+
+.box1:hover{
+    transform: perspective(20rem) rotateX(-25deg);
+}
+
+.boxchild1, .boxchild2{
+    width: 47%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(25, 130, 216);
+}
+
+.boxchild1 h1, .boxchild2 h1{
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+}
+
+
+/* .child-box2 */
+.child-box2{
+    width: 20%;
+    height: 60%;
+    border: 0.2rem solid black;
+}
+
+.box2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 .boxchild1, .box2 .boxchild2{
+    width: 42%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(25, 130, 216);
+    transform: perspective(20rem) rotateX(25deg);
+    transition: 0.5s;
+}
+
+.box2 .boxchild1:hover, .box2 .boxchild2:hover{
+    transform: perspective(20rem) rotateX(-25deg);
+}
+
+.box2 .boxchild1 h1, .box2 .boxchild2 h1{
+    font-size: 2rem;
+    font-weight: 100;
+    color: white;
+}

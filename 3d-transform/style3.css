@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.parent-box{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .box1 */
+.box1{
+    width: 20%;
+    height: 50%;
+    border: 0.2rem solid black;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1 .boxchild1{
+    width: 48%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 37, 37);
+}
+
+.box1 .boxchild1 h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+
+.box1 .boxchild2{
+    width: 48%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 37, 37);
+    transition: 0.5s;
+}
+
+.box1 .boxchild2:hover{
+    transform: perspective(30rem) rotatey(62deg);
+}
+
+.box1 .boxchild2 h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+
+
+/* .box2 */
+.box2{
+    width: 20%;
+    height: 50%;
+    border: 0.2rem solid black;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.box2 .boxchild2{
+    width: 48%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(74, 17, 207);
+}
+
+.box2 .boxchild2 h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 800;
+}
+
+
+.box2 .boxchild1{
+    width: 48%;
+    display: grid;
+    place-items: center;
+    background-color: rgb(74, 17, 207);
+    transition: 0.5s;
+}
+
+.box2 .boxchild1:hover{
+    transform: perspective(30rem) rotatey(-62deg);
+}
+
+.box2 .boxchild1 h1{
+    color: white;
+    font-size: 5rem;
+    font-weight: 800;
+}

@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+.parent-box{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* .box1 */
+.box1{
+    width: 20%;
+    height: 50%;
+    border: 0.2rem solid black;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.box1 .boxchild1{
+    width: 48%;
+    display: grid;
+    place-items: center;
+}
+
+.box1 .boxchild2{
+    width: 48%;
+    display: grid;
+    place-items: center;
+}
+
+.box1 .boxchild1 img, .box1 .boxchild2 img{
+    width: 12rem;
+    height: 14rem;
+    transition: 0.5s;
+}
+
+.box1 .boxchild2 img:hover{
+    transform: perspective(30rem) rotatey(45deg);
+}
+
+
+
+
+/* .box2 */
+.box2{
+    width: 20%;
+    height: 50%;
+    border: 0.2rem solid black;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 255, 255);
+}
+
+.box2 .boxchild1{
+    width: 48%;
+    display: grid;
+    place-items: center;
+    transition: 0.5s;
+}
+
+.box2 .boxchild1 img, .box2 .boxchild2 img{
+    width: 12rem;
+    height: 14rem;
+    transition: 0.5s;
+}
+
+.box2 .boxchild1 img:hover{
+    transform: perspective(30rem) rotatex(50deg);
+}
+
+
+.box2 .boxchild2{
+    width: 48%;
+    display: grid;
+    place-items: center;
+}
