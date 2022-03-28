@@ -1,0 +1,1066 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'PT Sans', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* #################### nav #################### */
+nav{
+    width: 98.77vw;
+    height: 8.5vh;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(243, 243, 243));
+}
+
+
+/* ##### .left-menu ##### */
+.left-menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-menu i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.left-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(14, 14, 14);
+}
+
+
+
+/* #### .logo #### */
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0rem;
+}
+
+.logo img{
+    cursor: pointer;
+}
+
+
+/* #### .right-menu #### */
+.right-menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(14, 14, 14);
+}
+
+
+
+
+/* #################### header #################### */
+header{
+    width: 98.77vw;
+    height: 90vh;
+    background-image: url("images/02_Miller_R08_Hero-desktop-01-Hero-1600x1000.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 23rem;
+    padding-right: 3rem;
+    text-align: right;
+    color: #fff;
+}
+
+header h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+header h2{
+    font-size: 5rem;
+    text-transform: capitalize;
+    letter-spacing: 0.1rem;
+    margin: 2rem 0rem;
+}
+
+header p{
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+header a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 10rem;
+    padding: 1.5rem 2.5rem;
+    background-color: red;
+}
+
+
+
+/* ################### section1 ####################### */
+.section1{
+    width: 98.77vw;
+    height: 55vh;
+    padding: 6rem 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* #### .section1-child #### */
+.section1-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(134, 134, 134);
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.section1-child:hover{
+    box-shadow: 0rem 0rem 1.8rem -0.2rem rgb(134, 134, 134);
+}
+
+.section1-child hr{
+    border: 0.2rem solid #cc0000;
+}
+
+/* .section1-child .subchild1 */
+.section1-child .subchild1{
+    width: 50%;
+    padding: 3rem;
+}
+
+.section1-child .subchild1 h1{
+    color: rgb(80, 77, 77);
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+.section1-child .subchild1 h2{
+    font-weight: 400;
+    font-size: 2.6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 7rem;
+}
+
+.section1-child .subchild1 p{
+    color: #0f0f0f;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 2.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.section1-child .subchild1 a{
+    color: #cc0000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+
+/* .section1-child .subchild2 */
+.section1-child .subchild2{
+    width: 50%;
+}
+
+.section1-child .subchild2 img{
+    width: 64.3rem;
+    height: 24.2rem;
+}
+
+
+
+
+
+/* ###################### .section2 ################### */
+.section2{
+    width: 98.77vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(250, 250, 250);
+}
+
+.section2-child1, .section2-child2, .section2-child3{
+    width: 30%;
+    border-radius: 0.3rem;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(175, 175, 175);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.section2-child1:hover, .section2-child2:hover, .section2-child3:hover{
+    box-shadow: 0rem 0rem 1.8rem -0.2rem rgb(175, 175, 175);
+}
+
+.section2-child1 .image{
+    height: 50%;
+    background-image: url("images/superbike.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section2-child2 .image{
+    height: 50%;
+    background-image: url("images/apparel.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section2-child3 .image{
+    height: 50%;
+    background-image: url("images/corporate.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section2-child1 .text, .section2-child2 .text, .section2-child3 .text{
+    height: 50%;
+    padding: 2rem 3rem;
+    background-color: #fff;
+}
+
+.section2-child1 .text h1, .section2-child2 .text h1, .section2-child3 .text h1{
+    color: #666;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.section2-child1 .text p, .section2-child2 .text p, .section2-child3 .text p{
+    color: black;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+}
+
+
+
+
+
+
+/* ################### section3 ####################### */
+.section3{
+    width: 98.77vw;
+    height: 68vh;
+    padding: 6rem 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* #### .section3-child #### */
+.section3-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(134, 134, 134);
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.section3-child:hover{
+    box-shadow: 0rem 0rem 1.8rem -0.2rem rgb(134, 134, 134);
+}
+
+
+/* .section3-child .subchild1 */
+.section3-child .subchild1{
+    width: 50%;
+    padding: 3rem;
+}
+
+.section3-child .subchild1 h1{
+    color: rgb(80, 77, 77);
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+.section3-child .subchild1 h2{
+    font-weight: 400;
+    font-size: 2.6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
+    line-height: 3.5rem;
+    margin: 2rem 0rem;
+}
+
+.section3-child .subchild1 p{
+    color: #494949;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 2.7rem;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+
+.section3-child .subchild1 a{
+    color: #cc0000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 9rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+
+/* .section3-child .subchild2 */
+.section3-child .subchild2{
+    width: 50%;
+}
+
+.section3-child .subchild2 img{
+    width: 64rem;
+    height: 32rem;
+}
+
+
+
+
+
+
+/* ################### .section4 ################## */
+.section4{
+    width: 98.77vw;
+    height: 97vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section4-child{
+    height: 100%;
+    background-image: url("images/Scrambler-Abbigliamento-01-Banner-full-1330x600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8rem 9rem;
+}
+
+.section4-child h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.section4-child p{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 2.6rem;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 25rem;
+}
+
+.section4-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+/* ################### .section5 ################## */
+.section5{
+    width: 98.77vw;
+    height: 97vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section5-child{
+    height: 100%;
+    background-image: url("images/MTS-V4-Ambience-01-Banner-Full-1330x600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8rem 9rem;
+}
+
+.section5-child h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.section5-child p{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 2.6rem;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 20rem;
+}
+
+.section5-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+/* ################### section6 ####################### */
+.section6{
+    width: 98.77vw;
+    height: 68vh;
+    padding: 6rem 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* #### .section6-child #### */
+.section6-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(134, 134, 134);
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.section6-child:hover{
+    box-shadow: 0rem 0rem 1.8rem -0.2rem rgb(134, 134, 134);
+}
+
+
+/* .section6-child .subchild1 */
+.section6-child .subchild1{
+    width: 50%;
+    padding: 3rem;
+}
+
+.section6-child .subchild1 h1{
+    color: rgb(80, 77, 77);
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+.section6-child .subchild1 h2{
+    font-weight: 400;
+    font-size: 2.6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.2rem;
+    line-height: 3.5rem;
+    margin: 2rem 0rem;
+}
+
+.section6-child .subchild1 p{
+    color: #494949;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 2.7rem;
+    letter-spacing: 0.1rem;
+    text-align: justify;
+}
+
+.section6-child .subchild1 a{
+    color: #cc0000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 9rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+
+/* .section6-child .subchild2 */
+.section6-child .subchild2{
+    width: 50%;
+}
+
+.section6-child .subchild2 img{
+    width: 64.4rem;
+    height: 32.5rem;
+}
+
+
+
+
+
+/* ################### .section7 ################## */
+.section7{
+    width: 98.77vw;
+    height: 97vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section7-child{
+    height: 100%;
+    background-image: url("images/DUC-BANNER-SITO-DESKTOP_1300x600_.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8rem 8rem;
+}
+
+.section7-child h1{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    letter-spacing: 0.3rem;
+    line-height: 3.5rem;
+}
+
+.section7-child p{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    line-height: 2.6rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 20rem;
+}
+
+.section7-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+/* ################### section8 ####################### */
+.section8{
+    width: 98.77vw;
+    height: 55vh;
+    padding: 5rem 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* #### .section8-child #### */
+.section8-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(134, 134, 134);
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.section8-child:hover{
+    box-shadow: 0rem 0rem 1.8rem -0.2rem rgb(134, 134, 134);
+}
+
+.section8-child hr{
+    border: 0.2rem solid #cc0000;
+}
+
+/* .section8-child .subchild1 */
+.section8-child .subchild1{
+    width: 50%;
+    padding: 3rem;
+}
+
+.section8-child .subchild1 h1{
+    color: rgb(80, 77, 77);
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+.section8-child .subchild1 h2{
+    font-weight: 400;
+    font-size: 2.6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 7rem;
+}
+
+.section8-child .subchild1 p{
+    color: #0f0f0f;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 2.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.section8-child .subchild1 a{
+    color: #cc0000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+
+/* .section8-child .subchild2 */
+.section8-child .subchild2{
+    width: 50%;
+}
+
+.section8-child .subchild2 img{
+    width: 64.3rem;
+    height: 26rem;
+}
+
+
+
+/* ##################### .section9 ################ */
+.section9{
+    width: 98.77vw;
+    height: 15vh;
+    display: grid;
+    place-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section9 h1{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+    font-weight: lighter;
+}
+
+
+
+
+
+/* ################ .section10 ############# */
+.section10{
+    width: 98.77vw;
+    height: 100vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* slideshow */
+.slidershow2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navigation2{
+    position: absolute;
+    bottom: -470rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar2{
+    width: 5rem;
+    height: 1rem;
+    border: 0.2rem solid #fff;
+    margin: 0.6rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar2:hover{
+    background-color: #fff;
+}
+
+input[name="ra"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides2{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+/* .slide2 */
+.slide2{
+    width: 21.25%;
+    background-image: url("images/slider/World-Racetrack-01-Links-Gallery-1334x820.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide2 h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.slide2 p{
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    line-height: 9rem;
+    margin-bottom: 3rem;
+}
+
+.slide2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 800;
+    word-spacing: 0.2rem;
+    padding: 2rem 4rem;
+    border: 0.1rem solid white;
+}
+
+
+/* .slide3 */
+.slide3{
+    width: 21.25%;
+    background-image: url("images/slider/World-Scrambler-01-Links-Gallery-1334x820.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide3 h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.slide3 p{
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    line-height: 9rem;
+    margin-bottom: 3rem;
+}
+
+.slide3 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 800;
+    word-spacing: 0.2rem;
+    padding: 2rem 4rem;
+    border: 0.1rem solid white;
+}
+
+
+
+/* .slide4 */
+.slide4{
+    width: 21.25%;
+    background-image: url("images/slider/World-Lifestyle-01-Links-Gallery-1334x820.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide4 h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.slide4 p{
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    line-height: 9rem;
+    margin-bottom: 3rem;
+}
+
+.slide4 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 800;
+    word-spacing: 0.2rem;
+    padding: 2rem 4rem;
+    border: 0.1rem solid white;
+}
+
+
+
+/* .slide5 */
+.slide5{
+    width: 21.25%;
+    background-image: url("images/slider/World-Travel-01-Links-Gallery-1334x820.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide5 h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.slide5 p{
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    line-height: 9rem;
+    margin-bottom: 3rem;
+}
+
+.slide5 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 800;
+    word-spacing: 0.2rem;
+    padding: 2rem 4rem;
+    border: 0.1rem solid white;
+}
+
+
+
+/* .slide6 */
+.slide6{
+    width: 20%;
+    background-image: url("images/slider/World-Sport-and-Fun-01-Links-Gallery-1334x820.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide6 h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.slide6 p{
+    color: #fff;
+    font-size: 4rem;
+    letter-spacing: 0.1rem;
+    line-height: 9rem;
+    margin-bottom: 3rem;
+}
+
+.slide6 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 800;
+    word-spacing: 0.2rem;
+    padding: 2rem 4rem;
+    border: 0.1rem solid white;
+}
+
+
+
+#ra1:checked ~ .s2{
+    margin-left: 0%;
+}
+
+#ra2:checked ~ .s2{
+    margin-left: -20%;
+}
+
+#ra3:checked ~ .s2{
+    margin-left: -40%;
+}
+
+#ra4:checked ~ .s2{
+    margin-left: -60%;
+}
+
+#ra5:checked ~ .s2{
+    margin-left: -80%;
+}
+
+
+
+
+
+/* ######################### .section11 #################### */
+.section11{
+    width: 98.77vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section11 h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+}
+
+.section11 p{
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin: 2rem 0rem;
+    text-align: center;
+}
+
+.section11-child{
+    margin-top: 2rem;
+}
+
+.section11-child input{
+    width: 37rem;
+    padding: 2rem;
+    letter-spacing: 0.1rem;
+    border: 0.1rem solid rgb(221, 221, 221);
+    margin-right: 1rem;
+}
+
+.section11-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+/* ################### footer ################# */
+footer{
+    width: 98.77vw;
+    height: 65vh;
+    color: rgb(102, 102, 102);
+    background-color: rgb(15, 15, 15);
+    padding: 0rem 3rem;
+}
+
+/* .footer1 */
+.footer1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer1 p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer1 p span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-right: 3rem;
+    line-height: 6rem;
+    letter-spacing: 0rem;
+    cursor: pointer;
+}
+
+/* .footer2 */
+.footer2{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer2 img{
+    cursor: pointer;
+}
+
+.footer2 i{
+    font-size: 2.5rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}

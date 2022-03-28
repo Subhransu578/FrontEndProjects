@@ -1,0 +1,642 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* #################### nav #################### */
+nav{
+    width: 98.77vw;
+    height: 8.5vh;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(243, 243, 243));
+}
+
+
+/* ##### .left-menu ##### */
+.left-menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-menu i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.left-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(14, 14, 14);
+}
+
+
+
+/* #### .logo #### */
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0rem;
+}
+
+.logo img{
+    cursor: pointer;
+}
+
+
+/* #### .right-menu #### */
+.right-menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(14, 14, 14);
+}
+
+
+
+
+/* ################ header ################ */
+header{
+    width: 98.77vw;
+    height: 91vh;
+    padding: 3rem;
+    padding-top: 10rem;
+    background-color: rgb(250, 250, 250);
+}
+
+header h2{
+    text-transform: capitalize;
+    font-size: 6rem;
+    margin: 4rem 0rem;
+    letter-spacing: 0.5rem;
+    word-spacing: 0.4rem;
+    font-weight: 600;
+}
+
+header p{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+
+
+
+/* ################ section1 ################ */
+.section1{
+    width: 98.77vw;
+    height: 100%;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section1 img{
+    width: 129rem;
+}
+
+
+
+
+
+
+/* ################# .section2 ################# */
+.section2{
+    width: 98.77vw;
+    height: 100%;
+    padding: 3rem;
+    display: grid;
+    place-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section2-child{
+    width: 55%;
+    height: 100%;
+}
+
+.section2-child p{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    line-height: 3.5rem;
+}
+
+.section2-child-link{
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2-child-link a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 1rem;
+    background-color: red;
+    padding: 2rem 4rem;
+    width: 24rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+/* ################# .section3 ################# */
+.section3{
+    width: 98.77vw;
+    height: 100%;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section3-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.section3-child-image{
+    width: 50%;
+    overflow: hidden;
+}
+
+.section3-child-image img{
+    margin-left: -3rem;
+}
+
+.section3-child-text{
+    width: 50%;
+    padding: 8rem 6rem;
+}
+
+.section3-child-text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
+}
+
+.section3-child-text a:hover{
+    color: black;
+}
+
+.section3-child-text p{
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+
+
+
+
+/* ################# .section4 ################# */
+.section4{
+    width: 98.77vw;
+    height: 100%;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section4-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.section4-child-image{
+    width: 50%;
+    overflow: hidden;
+}
+
+.section4-child-image img{
+    margin-left: -2rem;
+}
+
+.section4-child-text{
+    width: 50%;
+    padding: 8rem 6rem;
+}
+
+.section4-child-text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
+}
+
+.section4-child-text a:hover{
+    color: black;
+}
+
+.section4-child-text p{
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+
+
+
+
+
+/* ################# .section5 ################# */
+.section5{
+    width: 98.77vw;
+    height: 100%;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section5-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.section5-child-image{
+    width: 50%;
+    overflow: hidden;
+}
+
+.section5-child-image img{
+    margin-left: -2rem;
+}
+
+.section5-child-text{
+    width: 50%;
+    padding: 8rem 6rem;
+}
+
+.section5-child-text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
+}
+
+.section5-child-text a:hover{
+    color: black;
+}
+
+.section5-child-text p{
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+
+
+
+
+
+/* ################# .section6 ################# */
+.section6{
+    width: 98.77vw;
+    height: 100%;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section6-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.section6-child-image{
+    width: 50%;
+    overflow: hidden;
+}
+
+.section6-child-image img{
+    margin-left: -2rem;
+}
+
+.section6-child-text{
+    width: 50%;
+    padding: 8rem 6rem;
+}
+
+.section6-child-text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
+}
+
+.section6-child-text a:hover{
+    color: black;
+}
+
+.section6-child-text p{
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+
+
+
+
+
+/* ################# .section7 ################# */
+.section7{
+    width: 98.77vw;
+    height: 100%;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section7-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: white;
+}
+
+.section7-child-image{
+    width: 50%;
+    overflow: hidden;
+}
+
+.section7-child-image img{
+    margin-left: -2rem;
+}
+
+.section7-child-text{
+    width: 50%;
+    padding: 8rem 6rem;
+}
+
+.section7-child-text a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    transition: 0.3s;
+}
+
+.section7-child-text a:hover{
+    color: black;
+}
+
+.section7-child-text p{
+    font-size: 1.8rem;
+    margin-top: 6rem;
+    line-height: 3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+
+
+
+
+/* ################ section8 ################ */
+.section8{
+    width: 98.77vw;
+    height: 100%;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section8 img{
+    width: 129rem;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(175, 175, 175);
+}
+
+
+
+
+/* ################ section9 ################ */
+.section9{
+    width: 98.77vw;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section9 a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 1rem;
+    background-color: red;
+    padding: 2rem 4rem;
+    width: 24rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+/* ################### .section10 ################## */
+.section10{
+    width: 98.77vw;
+    height: 97vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section10-child{
+    height: 100%;
+    background-image: url("images/ducati-app/My-Ducati-01-banner-full-1330x600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8rem 9rem;
+}
+
+.section10-child h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.section10-child p{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 2.6rem;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 25rem;
+}
+
+
+
+
+
+/* ######################### .section11 #################### */
+.section11{
+    width: 98.77vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section11 h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+}
+
+.section11 p{
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin: 2rem 0rem;
+    text-align: center;
+}
+
+.section11-child{
+    margin-top: 2rem;
+}
+
+.section11-child input{
+    width: 37rem;
+    padding: 2rem;
+    letter-spacing: 0.1rem;
+    border: 0.1rem solid rgb(221, 221, 221);
+    margin-right: 1rem;
+}
+
+.section11-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+
+/* ################### footer ################# */
+footer{
+    width: 98.77vw;
+    height: 65vh;
+    color: rgb(102, 102, 102);
+    background-color: rgb(15, 15, 15);
+    padding: 0rem 3rem;
+}
+
+/* .footer1 */
+.footer1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer1 p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer1 p span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-right: 3rem;
+    line-height: 6rem;
+    letter-spacing: 0rem;
+    cursor: pointer;
+}
+
+/* .footer2 */
+.footer2{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer2 img{
+    cursor: pointer;
+}
+
+.footer2 i{
+    font-size: 2.5rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}

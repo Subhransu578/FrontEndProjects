@@ -1,0 +1,1563 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Cantarell', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+
+/* #################### nav #################### */
+nav{
+    width: 98.77vw;
+    height: 8.5vh;
+    display: flex;
+    position: sticky;
+    top: 0%;
+    background: linear-gradient(rgb(255, 255, 255), rgb(243, 243, 243));
+}
+
+
+/* ##### .left-menu ##### */
+.left-menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-menu i{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.left-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(14, 14, 14);
+}
+
+
+
+/* #### .logo #### */
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0rem;
+}
+
+.logo img{
+    cursor: pointer;
+}
+
+
+/* #### .right-menu #### */
+.right-menu{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.right-menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: rgb(14, 14, 14);
+}
+
+
+
+
+
+/* ################## header ################# */
+header{
+    width: 98.77vw;
+    height: 92vh;
+    background-image: url("images/multistrada/Multistrada-V4-03-hero-1600x1000.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-bottom: 10rem;
+    padding-right: 6rem;
+}
+
+header h1{
+    font-size: 6rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: white;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    
+}
+
+header a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    color: white;
+    background-color: red;
+    padding: 2rem 4rem;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+
+/* ################# .section1 ################# */
+.section1{
+    width: 98.77vw;
+    height: 100%;
+    padding: 6rem 3rem;
+    display: grid;
+    place-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section1-child{
+    width: 55%;
+    height: 100%;
+}
+
+.section1-child p{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    line-height: 3.5rem;
+    color: rgb(102, 102, 102);
+}
+
+.section1-child a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(173, 173, 173);
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    padding: 1rem 2rem;
+    border: 0.1rem solid rgb(173, 173, 173);
+    border-radius: 3rem;
+    transition: 0.3s;
+    margin-right: 3rem;
+}
+
+.section1-child a:first-child{
+    background-color: black;
+    color: white;
+}
+
+.section1-child a:nth-child(2):hover, .section1-child a:nth-child(3):hover{
+    color: black;
+    border: 0.1rem solid black;
+}
+
+.section1-child h1{
+    font-size: 4rem;
+    margin: 4rem 0rem;
+}
+
+.section1-child h3{
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+
+
+
+
+/* #################### .section2 ################### */
+.section2{
+    width: 98.77vw;
+    height: 100vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section2 img{
+    width: 129rem;
+}
+
+
+
+
+
+/* #################### .section3 ################### */
+.section3{
+    width: 98.77vw;
+    height: 70vh;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 250, 250);
+}
+
+.section3-child1, .section3-child2, .section3-child3, .section3-child4{
+    width: 24%;
+    padding: 1rem;
+}
+
+.section3-child1 h1, .section3-child2 h1, .section3-child3 h1, .section3-child4 h1{
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.section3-child1 hr, .section3-child2 hr, .section3-child3 hr, .section3-child4 hr{
+    border-bottom: 0.05rem solid rgb(87, 82, 82);
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+
+.section3-child1 p, .section3-child2 p, .section3-child3 p, .section3-child4 p{
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    line-height: 2rem;
+    color: rgb(97, 97, 97);
+}
+
+.section3-child1 p{
+    margin-bottom: 6rem;
+}
+
+.section3-child1 a{
+    font-size: 1.7rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+}
+
+
+
+
+
+
+
+/* ############### .section4 ############### */
+.section4{
+    width: 98.77vw;
+    height: 30vh;
+    padding: 3rem;
+    display: grid;
+    place-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section4 h1{
+    font-size: 5rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+}
+
+
+
+
+
+
+/* ###################### .section5 ################### */
+.section5{
+    width: 98.77vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section5-child1, .section5-child2, .section5-child3{
+    width: 30%;
+    border-radius: 0.3rem;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(175, 175, 175);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.section5-child1:hover, .section5-child2:hover, .section5-child3:hover{
+    box-shadow: 0rem 0rem 1.8rem -0.2rem rgb(175, 175, 175);
+}
+
+.section5-child1 .image{
+    height: 50%;
+    background-image: url("images/multistrada/rideability.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section5-child2 .image{
+    height: 50%;
+    background-image: url("images/multistrada/radar-system.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section5-child3 .image{
+    height: 50%;
+    background-image: url("images/multistrada/power.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section5-child1 .text, .section5-child2 .text, .section5-child3 .text{
+    height: 50%;
+    padding: 2rem 3rem;
+    background-color: #fff;
+}
+
+.section5-child1 .text h1, .section5-child2 .text h1, .section5-child3 .text h1{
+    color: #666;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.section5-child1 .text p, .section5-child2 .text p, .section5-child3 .text p{
+    color: black;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+}
+
+
+
+
+
+
+/* ###################### .section6 ################### */
+.section6{
+    width: 98.77vw;
+    height: 85vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section6-child1, .section6-child2, .section6-child3{
+    width: 30%;
+    border-radius: 0.3rem;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(175, 175, 175);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.section6-child1:hover, .section6-child2:hover, .section6-child3:hover{
+    box-shadow: 0rem 0rem 1.8rem -0.2rem rgb(175, 175, 175);
+}
+
+.section6-child1 .image{
+    height: 50%;
+    background-image: url("images/multistrada/freedom.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section6-child2 .image{
+    height: 50%;
+    background-image: url("images/multistrada/navigation-system.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section6-child3 .image{
+    height: 50%;
+    background-image: url("images/multistrada/aerodynamic.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.section6-child1 .text, .section6-child2 .text, .section6-child3 .text{
+    height: 50%;
+    padding: 2rem 3rem;
+    background-color: #fff;
+}
+
+.section6-child1 .text h1, .section6-child2 .text h1, .section6-child3 .text h1{
+    color: #666;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 4rem;
+    letter-spacing: 0.1rem;
+}
+
+.section6-child1 .text p, .section6-child2 .text p, .section6-child3 .text p{
+    color: black;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+}
+
+
+
+
+
+
+/* ################# .section7 ################# */
+.section7{
+    width: 98.77vw;
+    height: 20vh;
+    padding: 3rem;
+    display: grid;
+    place-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section7 a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+/* ################### .section8 ################## */
+.section8{
+    width: 98.77vw;
+    height: 97vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section8-child{
+    height: 100%;
+    background-image: url("images/multistrada/MTS-V4-01-Banner-Full-1330x600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8rem 9rem;
+}
+
+.section8-child h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.section8-child p{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 2.6rem;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 25rem;
+}
+
+.section8-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+
+/* ##################### .section9 ################### */
+.section9{
+    width: 98.77vw;
+    height: 25vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section9 h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+}
+
+.section9 p{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    float: left;
+}
+
+.section9 a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+    float: right;
+    margin-top: -4rem;
+}
+
+
+
+
+
+
+/* ################ .section10 ############# */
+.section10{
+    width: 98.77vw;
+    height: 100vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* slideshow */
+.slidershow1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navigation1{
+    position: absolute;
+    bottom: -497rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar2{
+    width: 4rem;
+    height: 1rem;
+    border: 0.1rem solid red;
+    margin: 0.6rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar2:hover{
+    background-color: red;
+}
+
+input[name="ra"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides1{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+/* .slide1 */
+.slide1{
+    width: 14%;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide1 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+/* .slide2 */
+.slide2{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide2 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+/* .slide3 */
+.slide3{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide3 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+/* .slide4 */
+.slide4{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide4 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+
+/* .slide5 */
+.slide5{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide5 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+
+/* .slide6 */
+.slide6{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide6 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+
+/* .slide7 */
+.slide7{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide7 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+
+/* .slide8 */
+.slide8{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide8 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+
+/* .slide9 */
+.slide9{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide9 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+
+/* .slide10 */
+.slide10{
+    width: 14%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide10 img{
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+
+
+
+#ra1:checked ~ .s1{
+    margin-left: 0%;
+}
+
+#ra2:checked ~ .s1{
+    margin-left: -11.5%;
+}
+
+#ra3:checked ~ .s1{
+    margin-left: -26%;
+}
+
+#ra4:checked ~ .s1{
+    margin-left: -40.3%;
+}
+
+#ra5:checked ~ .s1{
+    margin-left: -55%;
+}
+
+#ra6:checked ~ .s1{
+    margin-left: -69.3%;
+}
+
+#ra7:checked ~ .s1{
+    margin-left: -84%;
+}
+
+#ra8:checked ~ .s1{
+    margin-left: -98.2%;
+}
+
+#ra9:checked ~ .s1{
+    margin-left: -112.7%;
+}
+
+#ra10:checked ~ .s1{
+    margin-left: -124.3%;
+}
+
+
+
+
+
+/* ############### .section11 ################# */
+.section11{
+    width: 98.77vw;
+    height: 100vh;
+    background-image: url("images/multistrada/howling-red-zATDM3xbOBI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 15rem;
+    text-align: center;
+}
+
+.section11 h1{
+    font-size: 5rem;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 0.2rem;
+    font-weight: 800;
+    font-style: italic;
+    margin-bottom: 5rem;
+}
+
+.section11 a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    margin-right: 2rem;
+    padding: 1rem 2rem;
+    border: 0.1rem solid white;
+    border-radius: 3rem;
+    font-weight: 600;
+}
+
+.section11 a:nth-child(2){
+    background-color: white;
+    color: black;
+}
+
+.section11 a:nth-child(3), .section11 a:nth-child(4){
+    border-color: rgb(221, 221, 221);
+    color: rgb(221, 221, 221);
+    transition: 0.35s;
+}
+
+.section11 a:nth-child(3):hover, .section11 a:nth-child(4):hover{
+    border-color: white;
+    color: white;
+}
+
+
+
+
+
+
+/* #################### .section12 #################### */
+.section12{
+    width: 98.77vw;
+    height: 45vh;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 250, 250);
+}
+
+.section12 .section12-image img{
+    margin-top: -38rem;
+    width: 99rem;
+}
+
+.section12 .section12-text{
+    width: 30rem;
+}
+
+.section12-text h1{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: -18rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+.section12-text p{
+    font-size: 1.5rem;
+    color: white;
+    letter-spacing: 0.1rem;
+    margin-bottom: 15rem;
+}
+
+.section12-text a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+
+/* ################# .section13 ################# */
+.section13{
+    width: 98.77vw;
+    height: 70vh;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(250, 250, 250);
+}
+
+.section13-image{
+    width: 45%;
+}
+
+.section13-image img{
+    margin-top: -4rem;
+}
+
+
+.section13-text{
+    width: 45%;
+}
+
+.section13-text h1{
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.section13-text p{
+    font-size: 1.7rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    margin: 4rem 0rem;
+}
+
+.section13-text select{
+    outline: none;
+    border: none;
+    border-bottom: 0.1rem solid black;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    padding: 1rem;
+    background-color: rgb(250, 250, 250);
+    display: block;
+    margin-bottom: 6rem;
+}
+
+.section13-text a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+
+
+/* ################### section14 ####################### */
+.section14{
+    width: 98.77vw;
+    height: 60vh;
+    padding: 6rem 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* #### .section14-child #### */
+.section14-child{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    box-shadow: 0rem 0rem 1.3rem -0.4rem rgb(134, 134, 134);
+    transition: 0.3s;
+    background-color: #fff;
+}
+
+.section14-child:hover{
+    box-shadow: 0rem 0rem 1.8rem -0.2rem rgb(134, 134, 134);
+}
+
+.section14-child hr{
+    border: 0.2rem solid #cc0000;
+}
+
+/* .section14-child .subchild1 */
+.section14-child .subchild1{
+    width: 50%;
+    padding: 3rem;
+}
+
+.section14-child .subchild1 h1{
+    color: rgb(80, 77, 77);
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+}
+
+.section14-child .subchild1 h2{
+    font-weight: 400;
+    font-size: 2.6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 7rem;
+}
+
+.section14-child .subchild1 p{
+    color: #0f0f0f;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    line-height: 2.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.section14-child .subchild1 a{
+    color: #cc0000;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-decoration: none;
+    line-height: 6rem;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.1rem;
+}
+
+
+/* .section14-child .subchild2 */
+.section14-child .subchild2{
+    width: 50%;
+}
+
+.section14-child .subchild2 img{
+    width: 64.3rem;
+    height: 27.3rem;
+}
+
+
+
+
+
+
+/* ################### .section15 ################## */
+.section15{
+    width: 98.77vw;
+    height: 97vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section15-child{
+    height: 100%;
+    background-image: url("images/multistrada/Banner-Full-10K.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8rem 8rem;
+}
+
+.section15-child h1{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    margin-bottom: 2rem;
+    letter-spacing: 0.2rem;
+    line-height: 3.5rem;
+}
+
+.section15-child p{
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    line-height: 2.6rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 20rem;
+}
+
+.section15-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+
+/* ################### .section16 ################## */
+.section16{
+    width: 98.77vw;
+    height: 97vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+.section16-child{
+    height: 100%;
+    background-image: url("images/multistrada/MTS-V4-02-Banner-Full-1330x600.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 8rem 9rem;
+}
+
+.section16-child h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: lighter;
+    margin-bottom: 3rem;
+    letter-spacing: 0.3rem;
+}
+
+.section16-child p{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: lighter;
+    line-height: 2.6rem;
+    letter-spacing: 0.3rem;
+    word-spacing: 0.2rem;
+    margin-bottom: 20rem;
+}
+
+.section16-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+
+/* #################### .section17 ################## */
+.section17{
+    width: 98.77vw;
+    height: 30vh;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section17 h1{
+    font-size: 5rem;
+}
+
+.section17 p{
+    font-size: 1.7rem;
+    margin: 1rem;
+}
+
+
+
+
+
+
+
+/* ################ .section18 ############# */
+.section18{
+    width: 98.77vw;
+    height: 85vh;
+    padding: 3rem;
+    background-color: rgb(250, 250, 250);
+}
+
+/* slideshow */
+.slidershow2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navigation2{
+    position: absolute;
+    bottom: -877rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar3{
+    width: 4rem;
+    height: 1rem;
+    border: 0.1rem solid red;
+    margin: 0.6rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar3:hover{
+    background-color: red;
+}
+
+input[name="rad"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides2{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+/* .slide1 */
+.slides2 .slide1{
+    width: 10%;
+    height: 84%;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    background-image: url("images/multistrada/slider2/MTS-V4-04-Slider-Card-625x405.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+    padding: 2rem;
+}
+
+.slides2 .slide1 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.slides2 .slide1 p{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-top: 33rem;
+}
+
+
+
+
+
+/* .slide2 */
+.slides2 .slide2{
+    width: 10%;
+    height: 84%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    padding: 2rem;
+    background-image: url("images/multistrada/slider2/MTS-V4-10-Slider-Card-625x405.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+.slides2 .slide2 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.slides2 .slide2 p{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-top: 30rem;
+}
+
+
+
+
+
+/* .slide3 */
+.slides2 .slide3{
+    width: 10%;
+    height: 84%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    padding: 2rem;
+    background-image: url("images/multistrada/slider2/MTS-V4-07-Slider-Card-625x405.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+.slides2 .slide3 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.slides2 .slide3 p{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-top: 33rem;
+}
+
+
+
+
+
+/* .slide4 */
+.slides2 .slide4{
+    width: 10%;
+    height: 84%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    padding: 2rem;
+    background-image: url("images/multistrada/slider2/MTS-V4-08-Slider-Card-625x405.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+.slides2 .slide4 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.slides2 .slide4 p{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-top: 30rem;
+}
+
+
+
+
+
+
+/* .slide5 */
+.slides2 .slide5{
+    width: 10%;
+    height: 84%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    padding: 2rem;
+    background-image: url("images/multistrada/slider2/MTS-V4-16-Slider-Card-625x405.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+.slides2 .slide5 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.slides2 .slide5 p{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-top: 30rem;
+}
+
+
+
+
+
+
+/* .slide6 */
+.slides2 .slide6{
+    width: 10%;
+    height: 84%;
+    margin-left: 3rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: left;
+    padding: 2rem;
+    background-image: url("images/multistrada/slider2/MTS-V4-06-Slider-Card-625x405.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: 0.1rem 0.3rem 1rem 0rem rgb(161, 161, 161);
+}
+
+.slides2 .slide6 h1{
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+}
+
+.slides2 .slide6 p{
+    color: white;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+    margin-top: 30rem;
+}
+
+
+
+
+
+
+#rad1:checked ~ .s2{
+    margin-left: 0%;
+}
+
+#rad2:checked ~ .s2{
+    margin-left: -10.5%;
+}
+
+#rad3:checked ~ .s2{
+    margin-left: -21%;
+}
+
+#rad4:checked ~ .s2{
+    margin-left: -31.5%;
+}
+
+#rad5:checked ~ .s2{
+    margin-left: -42%;
+}
+
+
+
+
+
+
+/* ######################### .section19 #################### */
+.section19{
+    width: 98.77vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 250, 250);
+}
+
+.section19 h1{
+    font-size: 3rem;
+    font-weight: lighter;
+    letter-spacing: 0.2rem;
+}
+
+.section19 p{
+    font-size: 1.3rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin: 2rem 0rem;
+    text-align: center;
+}
+
+.section19-child{
+    margin-top: 2rem;
+}
+
+.section19-child input{
+    width: 37rem;
+    padding: 2rem;
+    letter-spacing: 0.1rem;
+    border: 0.1rem solid rgb(221, 221, 221);
+    margin-right: 1rem;
+}
+
+.section19-child a{
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 2rem 3rem;
+    word-spacing: 0.2rem;
+    background-color: red;
+}
+
+
+
+
+
+
+/* ################### footer ################# */
+footer{
+    width: 98.77vw;
+    height: 65vh;
+    color: rgb(102, 102, 102);
+    background-color: rgb(15, 15, 15);
+    padding: 0rem 3rem;
+}
+
+/* .footer1 */
+.footer1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer1 p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer1 p span{
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-right: 3rem;
+    line-height: 6rem;
+    letter-spacing: 0rem;
+    cursor: pointer;
+}
+
+/* .footer2 */
+.footer2{
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer2 img{
+    cursor: pointer;
+}
+
+.footer2 i{
+    font-size: 2.5rem;
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+
+.footer2 a{
+    text-decoration: none;
+    color: rgb(102, 102, 102);
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    font-weight: 600;
+}

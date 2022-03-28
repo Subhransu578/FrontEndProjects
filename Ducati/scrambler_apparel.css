@@ -1,0 +1,784 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* ################### nav #################### */
+nav{
+    width: 98.77vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    background-color: white;
+}
+
+/* ####### .logo ####### */
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 15rem;
+    margin-left: 3rem;
+}
+
+
+
+/* ######## .menu ######## */
+.menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.menu a{
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    color: grey;
+}
+
+/* .menu a:nth-child(1) */
+.menu a:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: black;
+}
+
+.menu a:nth-child(1) img{
+    margin-right: 0.7rem;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+
+}
+
+.menu a:nth-child(1) span{
+    letter-spacing: 0.2rem;
+    transition: 0.35s all linear;
+}
+
+.menu a:nth-child(1) span:hover{
+    color: rgb(255, 198, 2);
+}
+
+
+
+/* .menu a:nth-child(2) */
+.menu a:nth-child(2) i{
+    margin-right: 1.5rem;
+    transition: 0.35s all linear;
+}
+
+.menu a:nth-child(2) i:hover{
+    color: black;
+}
+
+
+
+/* .menu a:nth-child(3) */
+.menu a:nth-child(3){
+    font-weight: 700;
+    color: rgb(255, 198, 2);
+    transition: 0.35s all linear;
+}
+
+.menu a:nth-child(3):hover{
+    color: #000;
+}
+
+
+
+/* .menu a:nth-child(4) */
+.menu a:nth-child(4) i{
+    font-size: 5rem;
+    transition: 0.35s all linear;
+    color: black;
+}
+
+.menu a:nth-child(4) i:hover{
+    color: rgb(255, 198, 2);
+}
+
+
+
+
+
+/* ################### header ################## */
+header{
+    width: 98.77vw;
+    height: 40vh;
+    padding: 3rem;
+}
+
+header h1{
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+header hr{
+    width: 15%;
+    border: 0.3rem solid rgb(255, 198, 2);
+    margin: 1rem 0rem;
+}
+
+header p{
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    margin-top: 3rem;
+    line-height: 2.5rem;
+}
+
+
+
+
+
+/* ################ .section1 ################## */
+.section1{
+    width: 98.77vw;
+    height: 80vh;
+    padding: 3rem;
+}
+
+.section1-child{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/scrambler-apparel/EZgeiEnWoAA1GFq.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 4rem 6rem;
+}
+
+.section1-child h1{
+    font-size: 6rem;
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.4rem black;
+    letter-spacing: 0.1rem;
+}
+
+.section1-child p{
+    font-size: 2rem;
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.3rem black;
+    letter-spacing: 0.1rem;
+    margin-bottom: 17rem;
+    margin-top: 2rem;
+}
+
+.section1-child a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    background-color: rgb(255, 198, 2);
+    padding: 1.2rem 4rem;
+}
+
+
+
+
+
+/* #################### .section2 ################# */
+.section2{
+    width: 98.77vw;
+    height: 40vh;
+    padding: 3rem;
+}
+
+.section2 p{
+    font-size: 1.7rem;
+    font-weight: 100;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2rem;
+    line-height: 3rem;
+}
+
+.section2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    background-color: rgb(255, 198, 2);
+    padding: 1.2rem 4rem;
+    line-height: 5rem;
+}
+
+
+
+
+
+/* ################## .section3 ################## */
+.section3{
+    width: 98.77vw;
+    height: 100vh;
+    padding: 3rem;
+}
+
+.section3-child{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/scrambler-apparel/cloth1.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+
+
+/* #################### .section4 #################### */
+.section4{
+    width: 98.77vw;
+    height: 35vh;
+    padding: 3rem;
+}
+
+.section4 p{
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    margin-bottom: 4rem;
+}
+
+.section4 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    background-color: rgb(255, 198, 2);
+    padding: 1.2rem 4rem;
+    line-height: 5rem;
+}
+
+
+
+
+
+
+
+/* ################ .section5 ############# */
+.section5{
+    width: 98.77vw;
+    height: 100vh;
+    padding: 3rem;
+}
+
+/* slideshow */
+.slidershow1{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navigation1{
+    position: absolute;
+    bottom: -196rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar2{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(255, 198, 2);
+    margin: 0.6rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar2:hover{
+    background-color: rgb(129, 129, 129);
+}
+
+input[name="ra"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides1{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+/* .slide1 */
+.slide1{
+    width: 21.25%;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide1 img{
+    margin-left: -8rem;
+}
+
+
+
+
+/* .slide2 */
+.slide2{
+    width: 21.25%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide2 img{
+    margin-left: -8rem;
+}
+
+
+
+/* .slide3 */
+.slide3{
+    width: 21.25%;
+    margin-left: -8.2rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide3 img{
+    margin-left: -8rem;
+}
+
+
+
+/* .slide4 */
+.slide4{
+    width: 21.25%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide4 img{
+    margin-left: -8rem;
+}
+
+
+
+#ra1:checked ~ .s1{
+    margin-left: 0%;
+}
+
+#ra2:checked ~ .s1{
+    margin-left: -20%;
+}
+
+#ra3:checked ~ .s1{
+    margin-left: -40%;
+}
+
+#ra4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+
+
+
+
+
+/* ################ .section6 ################# */
+.section6{
+    width: 98.77vw;
+    height: 100vh;
+    padding: 3rem;
+}
+
+.section6-child{
+    width: 100%;
+    height: 100%;
+    background-image: url("images/scrambler-apparel/cloth2.jpg");
+    background-size: 100% 100%;
+}
+
+
+
+
+
+/* #################### .section7 #################### */
+.section7{
+    width: 98.77vw;
+    height: 60vh;
+    padding: 3rem;
+}
+
+.section7 p{
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+    margin-bottom: 4rem;
+}
+
+.section7 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    background-color: rgb(255, 198, 2);
+    padding: 1.2rem 4rem;
+    line-height: 5rem;
+}
+
+.section7 h1{
+    font-size: 6rem;
+    font-weight: 800;
+    margin-top: 3rem;
+}
+
+.section7 hr{
+    width: 20%;
+    border: 0.3rem solid rgb(255, 198, 2);
+    margin: 1rem 0rem;
+    margin-bottom: 3rem;
+}
+
+
+
+
+
+
+/* ################ .section8 ############# */
+.section8{
+    width: 98.77vw;
+    height: 100vh;
+    padding: 3rem;
+}
+
+/* slideshow */
+.slidershow2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.navigation2{
+    position: absolute;
+    bottom: -367rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar3{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: rgb(255, 198, 2);
+    margin: 0.6rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar3:hover{
+    background-color: rgb(129, 129, 129);
+}
+
+input[name="rad"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides2{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+/* .slide1 */
+.slide1{
+    width: 21.25%;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide1 img{
+    margin-left: -8rem;
+}
+
+
+
+
+/* .slide2 */
+.slide2{
+    width: 21.25%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide2 img{
+    margin-left: -8rem;
+}
+
+
+
+/* .slide3 */
+.slide3{
+    width: 21.25%;
+    margin-left: -8.2rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide3 img{
+    margin-left: -8rem;
+}
+
+
+
+/* .slide4 */
+.slide4{
+    width: 21.25%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide4 img{
+    margin-left: -8rem;
+}
+
+
+
+/* .slide5 */
+.slide5{
+    width: 21.25%;
+    margin-left: -8rem;
+    transition: 0.6s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide5 img{
+    margin-left: -8rem;
+}
+
+
+
+#rad1:checked ~ .s2{
+    margin-left: 0%;
+}
+
+#rad2:checked ~ .s2{
+    margin-left: -20%;
+}
+
+#rad3:checked ~ .s2{
+    margin-left: -40%;
+}
+
+#rad4:checked ~ .s2{
+    margin-left: -60%;
+}
+
+#rad5:checked ~ .s2{
+    margin-left: -80%;
+}
+
+
+
+
+
+
+/* ################# .section9 ################## */
+.section9{
+    width: 98.77vw;
+    height: 90vh;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section9-child1{
+    width: 48%;
+    background-image: url("images/scrambler-apparel/cloth2.jpg");
+    background-size: 100% 100%;
+    padding: 8rem 3rem;
+}
+
+.section9-child2{
+    width: 48%;
+    background-image: url("images/scrambler-apparel/unnamed.jpg");
+    background-size: 100% 100%;
+    padding: 8rem 3rem;
+}
+
+.section9-child1 h1, .section9-child2 h1{
+    font-size: 6rem;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
+    color: #fff;
+    line-height: 6rem;
+    margin-bottom: 5rem;
+    text-shadow: 0.1rem 0.1rem 0.5rem black;
+}
+
+.section9-child1 p, .section9-child2 p{
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    margin-bottom: 4rem;
+    color: #fff;
+    text-shadow: 0.1rem 0.1rem 0rem black;
+}
+
+.section9-child1 a, .section9-child2 a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    background-color: rgb(255, 198, 2);
+    padding: 1.2rem 4rem;
+    line-height: 5rem;
+}
+
+
+
+
+
+/* ################### footer ################# */
+footer{
+    width: 98.77vw;
+    height: 65vh;
+    color: rgb(102, 102, 102);
+    background-color: black;
+    padding: 0rem 3rem;
+}
+
+/* .footer1 */
+.footer1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer1 p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer1 p a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    margin-right: 6rem;
+    line-height: 6rem;
+    letter-spacing: 0rem;
+    transition: 0.35s all linear;
+}
+
+.footer1 p a:hover{
+    color: rgb(255, 198, 2);
+}
+
+
+
+/* .footer2 */
+.footer2{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .footer2 a:nth-child(1) */
+.footer2 a:nth-child(1){
+    margin-right: 4rem;
+}
+
+
+
+/* .footer2 a:nth-child(2) */
+.footer2 a:nth-child(2){
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    word-spacing: 0.2rem;
+    margin-right: 4rem;
+    background-color: rgb(255, 198, 2);
+}
+
+.footer2 a:nth-child(2) span{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+
+
+
+/* .footer2 a:nth-child(3) */
+.footer2 a:nth-child(3) i{
+    font-size: 3.5rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    color: rgb(255, 198, 2);
+    transition: 0.35s all linear;
+}
+
+.footer2 a:nth-child(3) i:hover{
+    color: white;
+}

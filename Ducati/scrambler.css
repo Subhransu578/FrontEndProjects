@@ -1,0 +1,403 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* ################### nav #################### */
+nav{
+    width: 98.77vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0rem;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.061);
+}
+
+/* ####### .logo ####### */
+.logo{
+    width: 20%;
+}
+
+.logo img{
+    width: 22rem;
+    margin-top: -3rem;
+    filter: invert();
+}
+
+
+
+/* ######## .menu ######## */
+.menu{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.menu a{
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    color: #fff;
+}
+
+/* .menu a:nth-child(1) */
+.menu a:nth-child(1) i{
+    margin-right: 0.7rem;
+    color: rgb(255, 198, 2);
+    transition: 0.35s all linear;
+}
+
+.menu a:nth-child(1) i:hover{
+    color: #fff;
+}
+
+.menu a:nth-child(1) span{
+    letter-spacing: 0.2rem;
+    transition: 0.35s all linear;
+}
+
+.menu a:nth-child(1) span:hover{
+    color: rgb(255, 198, 2);
+}
+
+
+
+/* .menu a:nth-child(2) */
+.menu a:nth-child(2) i{
+    margin-right: 1.5rem;
+    transition: 0.35s all linear;
+}
+
+.menu a:nth-child(2) i:hover{
+    color: rgb(255, 198, 2);
+}
+
+
+
+/* .menu a:nth-child(3) */
+.menu a:nth-child(3){
+    font-weight: 700;
+    color: rgb(255, 198, 2);
+    transition: 0.35s all linear;
+}
+
+.menu a:nth-child(3):hover{
+    color: #fff;
+}
+
+
+
+/* .menu a:nth-child(4) */
+.menu a:nth-child(4) i{
+    font-size: 5rem;
+    transition: 0.35s all linear;
+}
+
+.menu a:nth-child(4) i:hover{
+    color: rgb(255, 198, 2);
+}
+
+
+
+
+
+/* ################# header ############### */
+header{
+    width: 98.77vw;
+    height: 116vh;
+    background-image: url("images/scrambler/scrambler-radio-2-1024x683.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 116%;
+    margin-top: -17rem;
+    padding-top: 45rem;
+    padding-left: 6rem;
+}
+
+header h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 6rem;
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.4rem black;
+    letter-spacing: 0.1rem;
+}
+
+header hr{
+    border: 0.4rem solid rgb(255, 198, 2);
+    width: 20%;
+    margin: 1rem 0rem;
+}
+
+header p{
+    font-size: 3rem;
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-shadow: 0.1rem 0.1rem 0.3rem black;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5rem;
+}
+
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.4rem;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.3rem;
+    background-color: rgb(255, 198, 2);
+    padding: 1.2rem 4rem;
+}
+
+
+
+
+
+/* ################## .section1 ################ */
+.section1{
+    width: 98.77vw;
+    height: 100vh;
+    padding-top: 4rem;
+    padding-left: 3rem;
+}
+
+.section1 h1{
+    font-size: 7rem;
+    line-height: 7rem;
+}
+
+.section1 hr{
+    border: 0.3rem solid rgb(255, 198, 2);
+    width: 16%;
+    margin: 2rem 0rem;
+}
+
+.section1 p:nth-child(3), .section1 p:nth-child(4), .section1 p:nth-child(5), .section1 p:nth-child(6), .section1 p:nth-child(7){
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.section1 p:nth-child(3){
+    margin-bottom: 4rem;
+}
+
+.section1 p:nth-child(4){
+    margin-bottom: 2rem;
+}
+.section1 p:nth-child(5){
+    margin-bottom: 2rem;
+}
+
+.section1 p:nth-child(6){
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+/* ################## .section2 ################ */
+.section2{
+    width: 98.77vw;
+    height: 90vh;
+    padding: 3rem;
+}
+
+
+/* .section2-child1 */
+.section2-child1{
+    height: 30%;
+}
+
+.section2-child1 h1{
+    font-size: 7rem;
+    line-height: 7rem;
+}
+
+.section2-child1 hr{
+    border: 0.3rem solid rgb(255, 198, 2);
+    width: 16%;
+    margin: 2rem 0rem;
+}
+
+.section2-child1 p{
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+    font-weight: 300;
+    color: gray;
+}
+
+
+/* .section2-child2 */
+.section2-child2{
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .section2-child2 .image1 */
+.section2-child2 .image1{
+    width: 32%;
+    overflow: hidden;
+}
+
+.section2-child2 .image1 img{
+    width: 58rem;
+    height: 37rem;
+    margin-left: -9rem;
+    transition: 0.5s;
+}
+
+.section2-child2 .image1 img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* .section2-child2 .image2 */
+.section2-child2 .image2{
+    width: 32%;
+    overflow: hidden;
+}
+
+.section2-child2 .image2 img{
+    width: 58rem;
+    height: 37rem;
+    margin-left: -9rem;
+    transition: 0.5s;
+}
+
+.section2-child2 .image2 img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+/* .section2-child2 .image3 */
+.section2-child2 .image3{
+    width: 32%;
+    overflow: hidden;
+}
+
+.section2-child2 .image3 img{
+    width: 58rem;
+    height: 37rem;
+    margin-left: -9rem;
+    transition: 0.5s;
+}
+
+.section2-child2 .image3 img:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+/* ################### footer ################# */
+footer{
+    width: 98.77vw;
+    height: 65vh;
+    color: rgb(102, 102, 102);
+    background-color: black;
+    padding: 0rem 3rem;
+}
+
+/* .footer1 */
+.footer1{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer1 p{
+    font-size: 1.3rem;
+    line-height: 3rem;
+    letter-spacing: 0.2rem;
+}
+
+.footer1 p a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    color: rgb(102, 102, 102);
+    font-weight: 400;
+    margin-right: 6rem;
+    line-height: 6rem;
+    letter-spacing: 0rem;
+    transition: 0.35s all linear;
+}
+
+.footer1 p a:hover{
+    color: rgb(255, 198, 2);
+}
+
+
+
+/* .footer2 */
+.footer2{
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .footer2 a:nth-child(1) */
+.footer2 a:nth-child(1){
+    margin-right: 4rem;
+}
+
+
+
+/* .footer2 a:nth-child(2) */
+.footer2 a:nth-child(2){
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    word-spacing: 0.2rem;
+    margin-right: 4rem;
+    background-color: rgb(255, 198, 2);
+}
+
+.footer2 a:nth-child(2) span{
+    text-transform: uppercase;
+    color: black;
+    font-size: 1.7rem;
+    margin-right: 1rem;
+    font-weight: 700;
+}
+
+
+
+/* .footer2 a:nth-child(3) */
+.footer2 a:nth-child(3) i{
+    font-size: 3.5rem;
+    margin-right: 3rem;
+    cursor: pointer;
+    color: rgb(255, 198, 2);
+    transition: 0.35s all linear;
+}
+
+.footer2 a:nth-child(3) i:hover{
+    color: white;
+}
